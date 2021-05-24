@@ -1,0 +1,37 @@
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    /* width: 250px;
+    height: 350px; */
+    /* top: calc(50% - 175px);
+    left: calc(50% - 165px);
+    background: inherit;
+    border-radius: 2px;
+    overflow: hidden;
+    color: black; */
+}
+::placeholder {
+    color: black;
+}
+.inp {
+    padding: 10px 0;
+    font-size: 18px;
+    background: inherit;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.addBtn {
+    margin-top: 15px;
+    background: inherit;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 20px;
+    outline: none;
+}
+.addBtn:hover {
+    background-color: rgb(113, 195, 243);
+}
